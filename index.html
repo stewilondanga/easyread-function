@@ -21,6 +21,64 @@
         </a>
     </div>
 
+
+    <article>
+      <h1>How to Overcomplicate Simple Functions to Ensure Job Security</h1>
+      <section class="container">
+        <h2>Start with an easy to read function</h2>
+        <p>Make sure to select only the most mundane functions to refactor into obscurity. Otherwise it might look like you were actually trying.</p>
+        <pre><code class="language-javascript">//output is a random string of a given length
+    function makeRandomString(length){
+    	//define all possible characters
+    	var chars  = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    	var output = '';
+
+    	for (var i = 0; i < length; i++) {
+    		//loop through and pick random characters and add them to the output
+    		output += chars.charAt(Math.floor(Math.random() * chars.length));
+    	}
+
+    	return output;
+    }</code></pre>
+      </section>
+      <section class="container">
+        <h2>Remove comments, put all your variables on the same line and shorten the function name</h2>
+        <p>Remember, this function is so simple it doesnt even need comments</p>
+        <pre><code class="language-javascript">function rStr(len){
+    	var c = 'abcdefghijklmnopqrstuvwxyz0123456789', o = '';
+
+    	for (var i = 0; i < len; i++) {
+    		o += c.charAt(Math.floor(Math.random() * c.length));
+    	}
+
+    	return o;
+    }</code></pre>
+      </section>
+      <section class="container">
+        <h2>Brackets Schmackets</h2>
+        <p>Brackets are for the unemployed</p>
+        <pre><code class="language-javascript">function rStr(len){
+    	var c = 'abcdefghijklmnopqrstuvwxyz0123456789', o = '';
+    	for (var i = 0; i < len; i++) o += c.charAt(Math.floor(Math.random() * c.length));
+    	return o;
+    }</code></pre>
+      </section>
+      <section class="container">
+        <h2>Use Bitwise operators that almost nobody uses in the real world</h2>
+        <p>It should looke like special character alphabet soup.</p>
+        <pre><code class="language-javascript">function rStr(len){
+    	var c = 'abcdefghijklmnopqrstuvwxyz0123456789', o = '';
+    	for (var i=0; i < len; i++) o += c.charAt(~~(Math.random()*c.length));
+    	return o;
+    }</code></pre>
+      </section>
+      <section class="container">
+        <h2>Is that the best you can do?</h2>
+        <p>5 lines is too many, hell if you can write it in 0 lines of code - go for it.</p>
+        <pre><code class="language-javascript">let rStr = l => [...Array(l)].map(i=>(~~(Math.random()*36)).toString(36)).join('')</code></pre>
+      </section>
+    </article>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
