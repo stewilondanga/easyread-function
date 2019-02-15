@@ -20,12 +20,12 @@ body {
   height: 1.5em;
 }
 
-/*
 article {
   max-width: 900px;
   margin: 2em auto;
 }
-article .container {
+
+/*article .container {
   margin-bottom: 1em;
   padding: 2em;
   background-color: #fff;
