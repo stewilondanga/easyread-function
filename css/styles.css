@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #eee;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -22,10 +28,6 @@
   height: 1.5em;
 }
 
-body {
-  font-family: 'Nunito', sans-serif;
-  background-color: #eee;
-}
 
 article {
   max-width: 900px;
