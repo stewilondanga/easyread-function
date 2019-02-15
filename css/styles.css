@@ -56,12 +56,12 @@ article h1 {
   text-align: center;
 }
 
-/*article h2 {
+article h2 {
   margin-top: 0;
   font-size: 1.15em;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
