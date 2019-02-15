@@ -32,11 +32,12 @@ article .container {
   border-radius: 3px;
 }
 
-/*article pre {
+article pre {
   margin: 0;
   white-space: pre-wrap;
 }
-article p {
+
+/*article p {
   margin-top: .5em;
   margin-bottom: .5em;
   line-height: 1.5em;
