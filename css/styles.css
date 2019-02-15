@@ -37,13 +37,14 @@ article pre {
   white-space: pre-wrap;
 }
 
-/*article p {
+article p {
   margin-top: .5em;
   margin-bottom: .5em;
   line-height: 1.5em;
   color: #999;
 }
-article h1, article h2 {
+
+/*article h1, article h2 {
   color: #333;
 }
 article h1 {
